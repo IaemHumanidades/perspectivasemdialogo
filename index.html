@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura de Paz: Diálogos Históricos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'inter': ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'peace-blue-light': '#f0f4f8', // Azul acinzentado claro para o fundo
+              'peace-blue-dark': '#1e40af', // Azul escuro para títulos de seção
+              'peace-blue-primary': '#2563eb', // Azul para botões e ícones
+              'peace-blue-primary-darker': '#1d4ed8', // Azul mais escuro no hover
+              'peace-blue-gradient-from': '#3b82f6',
+              'peace-blue-gradient-to': '#1e40af',
+              'peace-green-primary': '#10b981',
+              'peace-green-dark': '#047857',
+              'peace-green-light-bg': '#D1FAE5',
+              'peace-gray-icon': '#4a5568',
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="font-inter antialiased bg-peace-blue-light">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
